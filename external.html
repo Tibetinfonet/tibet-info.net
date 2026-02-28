@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset="utf-8">
 <script>
 // Extraire l'URL du paramètre ?link=
 const urlParams = new URLSearchParams(window.location.search);
 const targetUrl = urlParams.get('link');
-
 if (targetUrl) {
-  // Rediriger vers l'URL cible
-  window.location.href = targetUrl;
+// Rediriger vers l'URL cible
+window.location.href = targetUrl;
 } else {
-  // Si pas de paramètre, rediriger vers l'accueil
-  window.location.href = '/';
+// Si pas de paramètre, rediriger vers l'accueil
+window.location.href = '/';
 }
 </script>
 </head>
+
 <body>
 <p>Redirection en cours...</p>
-</body>
-</html>
+</body></html>
