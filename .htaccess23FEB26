@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Rediriger external.html vers la vraie page
+RewriteCond %{QUERY_STRING} link=http://www\.tibet-info\.net/www/(.*)
+RewriteRule ^.*external\.html$ /www/%1? [R=301,L]
+
+# Corriger les doubles /www/www/
+RewriteRule ^www/www/(.*)$ /www/$1 [R=301,L]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
