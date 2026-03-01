@@ -680,7 +680,7 @@ ul .forum-chapo { font-size: 83%; }
 	font-variant: small-caps;
 	background-repeat: no-repeat;
 	background-position: right 66%;
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/puce.gif");
+	background-image: url("/squelettes/styles/img/puce.gif");
 	padding-right: .6em;
 }
 
@@ -1196,7 +1196,7 @@ a.droite {
 	width: 8px; 
 	height: 14px; 
 	display: block;  
-	background: url("http://www.tibet-info.net/www/squelettes/styles/img/agenda-nav-droite.gif") no-repeat right top; 
+	background: url("/squelettes/styles/img/agenda-nav-droite.gif") no-repeat right top; 
 	left: 15px; 
 	top: 1.5em;
 	}
@@ -1205,7 +1205,7 @@ a.gauche {
 	display: block; 
 	width: 8px; 
 	height: 14px; 
-	background: url("http://www.tibet-info.net/www/squelettes/styles/img/agenda-nav-gauche.gif") no-repeat; 
+	background: url("/squelettes/styles/img/agenda-nav-gauche.gif") no-repeat; 
 	right: 15px; 
 	top: 1.5em; 
 	z-index: 21;

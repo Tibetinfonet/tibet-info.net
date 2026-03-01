@@ -1,11 +1,11 @@
 body {
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/body_bg.png");
+	background-image: url("/squelettes/styles/img/body_bg.png");
 	background-repeat: repeat;
 }
 
 #entete
 {
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/bandeau_tibet_info.jpg");
+	background-image: url("/squelettes/styles/img/bandeau_tibet_info.jpg");
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	text-align: right;
@@ -20,7 +20,7 @@ body {
 .edito h3,
 .signatures td 
 {	
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/titre-coin.gif");
+	background-image: url("/squelettes/styles/img/titre-coin.gif");
 	background-repeat: no-repeat;
 	background-position: top left;
 }
@@ -30,7 +30,7 @@ body {
 {
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/puce.gif");
+	background-image: url("/squelettes/styles/img/puce.gif");
 }
 
 #entete .nom-site span {  }
@@ -42,7 +42,7 @@ body {
 	text-align: right;
 }
 .formulaire_recherche input.forml {
-	background-image: url("http://www.tibet-info.net/www/squelettes/styles/img/loupe.png");
+	background-image: url("/squelettes/styles/img/loupe.png");
 	background-repeat: no-repeat;
 	background-position: right center;
 }

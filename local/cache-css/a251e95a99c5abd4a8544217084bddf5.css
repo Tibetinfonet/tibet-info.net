@@ -44,7 +44,7 @@ table.spip_barre input.barre{width:99%;background:transparent;border:0;color:inh
 .formulaire_menu_lang{margin:0;padding:0;background:none;}
 .formulaire_recherche{margin:0;padding:0;background:none;}
 .formulaire_recherche *{display:inline;vertical-align:middle;}
-.formulaire_recherche input.text{width:10em;padding-left:25px;background:#FFF url("http://www.tibet-info.net/www/squelettes-dist/rechercher.gif") no-repeat left center;}
+.formulaire_recherche input.text{width:10em;padding-left:25px;background:#FFF url("/squelettes-dist/rechercher.gif") no-repeat left center;}
 
 ul.choix_mots{display:block;margin:0;padding:0;list-style:none;}
 ul.choix_mots li{clear:none;float:left;display:block;width:30%;padding:1%;}

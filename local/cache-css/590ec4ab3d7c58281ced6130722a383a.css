@@ -52,7 +52,7 @@ a.spip_glossaire:hover{text-decoration:underline overline;}
 .markItUp .markItUpEditor{clear:both;display:block;overflow:auto;}
 #text_area{height:300px;}
 .markItUp .markItUpFooter{margin:0px;padding:0px;width:100%;}
-.markItUp .markItUpResizeHandle{overflow:hidden;width:22px;height:5px;margin-left:auto;margin-right:auto;background-image:url("https://www.tibet-info.net/www/extensions/porte_plume/css/images/handle.png");cursor:ns-resize;}
+.markItUp .markItUpResizeHandle{overflow:hidden;width:22px;height:5px;margin-left:auto;margin-right:auto;background-image:url("/www/extensions/porte_plume/css/images/handle.png");cursor:ns-resize;}
 .markItUp .markItUpTabs{text-align:right;padding:1px 1px 0;margin-bottom:-1px;margin-top:3px;overflow:hidden;width:auto;float:right;margin-right:30px;clear:both;}
 .markItUp .markItUpTabs a{display:block;float:right;border:1px solid #ccc;margin:0px 1px;padding:3px 4px 2px 4px;background:#f0f0f0;}
 .markItUp .markItUpTabs a.on{background:#fff;border-bottom:1px solid #fff;}
@@ -69,7 +69,7 @@ a.spip_glossaire:hover{text-decoration:underline overline;}
 .markItUp .markItUpHeader ul .markItUpDropMenu li{margin-right:0px;background-color:#eee;padding:1px 0px 1px 1px;}
 .markItUp .markItUpHeader ul ul{display:none;position:absolute;top:24px;left:-1px;width:150px;z-index:2;padding-top:2px;}
 .markItUp .markItUpHeader ul ul li{float:left;}
-.markItUp .markItUpHeader ul ul .markItUpDropMenu{background:#F5F5F5 url("https://www.tibet-info.net/www/extensions/porte_plume/css/images/submenu.png") no-repeat 50% 50%;}
+.markItUp .markItUpHeader ul ul .markItUpDropMenu{background:#F5F5F5 url("/www/extensions/porte_plume/css/images/submenu.png") no-repeat 50% 50%;}
 .markItUp .markItUpHeader ul .markItUpSeparator{margin:0 6px;width:0px;height:16px;overflow:hidden;}
 .markItUp .markItUpHeader ul ul .markItUpSeparator{width:auto;height:1px;margin:0px;}
 .markItUp .markItUpHeader ul a{display:block;background-color:#f5f5f5;border:1px solid #ccc;padding:3px;margin-right:1px;}
@@ -77,36 +77,36 @@ a.spip_glossaire:hover{text-decoration:underline overline;}
 .markItUp .markItUpHeader ul a:hover{border:1px solid #888;background-color:#fff;}
 
 /* page=barre_outils_icones.css */
-.markItUp .outil_header1 a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
-.markItUp .outil_bold a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
-.markItUp .outil_italic a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
-.markItUp .outil_stroke_through a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
-.markItUp .outil_liste_ul a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
-.markItUp .outil_liste_ol a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
-.markItUp .outil_indenter a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
-.markItUp .outil_desindenter a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
-.markItUp .outil_quote a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
-.markItUp .outil_link a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
-.markItUp .outil_notes a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
-.markItUp .outil_guillemets a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
-.markItUp .outil_guillemets_simples a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
-.markItUp .outil_guillemets_de a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
-.markItUp .outil_guillemets_de_simples a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
-.markItUp .outil_guillemets_uniques a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
-.markItUp .outil_caracteres a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
-.markItUp .outil_a_maj_grave a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
-.markItUp .outil_e_maj_aigu a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
-.markItUp .outil_e_maj_grave a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
-.markItUp .outil_aelig a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
-.markItUp .outil_aelig_maj a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
-.markItUp .outil_oe a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
-.markItUp .outil_oe_maj a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
-.markItUp .outil_ccedil_maj a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
-.markItUp .outil_uppercase a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
-.markItUp .outil_lowercase a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
-.markItUp .outil_clean a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
-.markItUp .outil_preview a b{background-image:url(https://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
-.ajaxLoad{background:white url('https://www.tibet-info.net/www/prive/images/searching.gif') top left no-repeat;}
+.markItUp .outil_header1 a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
+.markItUp .outil_bold a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
+.markItUp .outil_italic a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
+.markItUp .outil_stroke_through a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
+.markItUp .outil_liste_ul a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
+.markItUp .outil_liste_ol a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
+.markItUp .outil_indenter a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
+.markItUp .outil_desindenter a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
+.markItUp .outil_quote a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
+.markItUp .outil_link a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
+.markItUp .outil_notes a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
+.markItUp .outil_guillemets a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
+.markItUp .outil_guillemets_simples a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
+.markItUp .outil_guillemets_de a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
+.markItUp .outil_guillemets_de_simples a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
+.markItUp .outil_guillemets_uniques a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
+.markItUp .outil_caracteres a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
+.markItUp .outil_a_maj_grave a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
+.markItUp .outil_e_maj_aigu a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
+.markItUp .outil_e_maj_grave a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
+.markItUp .outil_aelig a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
+.markItUp .outil_aelig_maj a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
+.markItUp .outil_oe a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
+.markItUp .outil_oe_maj a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
+.markItUp .outil_ccedil_maj a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
+.markItUp .outil_uppercase a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
+.markItUp .outil_lowercase a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
+.markItUp .outil_clean a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
+.markItUp .outil_preview a b{background-image:url(/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
+.ajaxLoad{background:white url('/www/prive/images/searching.gif') top left no-repeat;}
 
 /* page=cfg.css */
 .cfg_arbo h5{padding:0.2em 0.2em;margin:0.2em 0;cursor:pointer;}

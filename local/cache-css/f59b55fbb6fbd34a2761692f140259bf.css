@@ -74,8 +74,8 @@ a.spip_glossaire:hover{text-decoration:underline overline;}
 .ligne_blanche{color:white;}
 .ligne_foncee{color:#fa9a00;}
 .ligne_noire{color:#000;}
-.forml{margin-top:0px;width:100%;display:block;padding:3px;background-color:#f0f0f0;border:1px solid #ffc000;background-position:center bottom;float:none;behavior:url(http://www.tibet-info.net/www/squelettes-dist/win_width.htc);font-size:12px;}
-.formo{margin-top:0px;width:100%;display:block;padding:3px;background-color:#fff;border:1px solid #ffc000;background-position:center bottom;float:none;behavior:url(http://www.tibet-info.net/www/squelettes-dist/win_width.htc);font-size:12px;}
+.forml{margin-top:0px;width:100%;display:block;padding:3px;background-color:#f0f0f0;border:1px solid #ffc000;background-position:center bottom;float:none;behavior:url(/squelettes-dist/win_width.htc);font-size:12px;}
+.formo{margin-top:0px;width:100%;display:block;padding:3px;background-color:#fff;border:1px solid #ffc000;background-position:center bottom;float:none;behavior:url(/squelettes-dist/win_width.htc);font-size:12px;}
 .fondl{margin-top:0px;padding:3px;background-color:#e4e4e4;border:1px solid #ffc000;background-position:center bottom;float:none;font-size:11px;}
 .fondo{margin-top:0px;background:#fa9a00;border:1px outset #ffc000;float:none;color:#fff;font-size:11px;font-weight:bold;}
 input[type="submit"]{font-weight:bold;margin-top:3px;}
@@ -148,9 +148,9 @@ td{text-align:left;}
 #bando_outils ul.deroulant li ul{background:#fff;border:2px solid #444;padding:1px;border-top:0;padding-top:0;}
 #bando_outils ul.deroulant li li a{padding:3px 3px;padding-right:10px;background-repeat:no-repeat;background-position:right 3px;}
 #bando_outils ul.deroulant li li{background-repeat:no-repeat;background-position:left 3px;padding-left:15px;}
-#bando_outils ul.deroulant li.haschild > a{background-image:url("http://www.tibet-info.net/www/prive/images/triangle-droite.gif");}
-#bando_outils ul.deroulant li li{background-image:url("http://www.tibet-info.net/www/prive/images/secteur-12.gif");}
-#bando_outils ul.deroulant li li li{background-image:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif");}
+#bando_outils ul.deroulant li.haschild > a{background-image:url("/prive/images/triangle-droite.gif");}
+#bando_outils ul.deroulant li li{background-image:url("/prive/images/secteur-12.gif");}
+#bando_outils ul.deroulant li li li{background-image:url("/prive/images/rubrique-12.gif");}
 #bando_outils ul.deroulant li.toutsite{background-image:none;}
 #bando_outils ul.deroulant li ul li{float:none;position:relative;}
 #bando_outils ul.deroulant li:hover li ul,#bando_outils ul.deroulant li.actif li ul,#bando_outils ul.deroulant li.actif_tempo li ul{left:-3000em;}
@@ -216,7 +216,7 @@ input[type="submit"]{cursor:pointer;}
 #bandeau-principal a{cursor:hand;}
 #bandeau-principal a .icon_fond{width:48px;height:48px;background:#ffc000;margin:auto;}
 #bandeau-principal a.selection .icon_fond{width:48px;margin:auto}
-#bandeau-principal a:hover span.icon_fond{background:url("http://www.tibet-info.net/www/prive/images/fond-gris-anim.gif");width:48px;height:48px;margin:auto;}
+#bandeau-principal a:hover span.icon_fond{background:url("/prive/images/fond-gris-anim.gif");width:48px;height:48px;margin:auto;}
 #bandeau-principal li.boutons_admin:hover .bandeau_sec,#bandeau-principal li.boutons_admin.sfhover .bandeau_sec{display:block;}
 #bandeau-principal span.icon_fond span{background:center top no-repeat;height:48px;display:block;width:48px;margin:0;}
 .bandeau_sec{margin-top:0;padding:2px;padding-top:0;background-color:#fff;border-bottom:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;z-index:100;display:none;position:absolute;}
@@ -243,14 +243,14 @@ a.lien_sous:hover{color:#000;}
 .cadre-meme-rubriques{background:#eee;border:1px solid #444;}
 .cadre-meme-rubriques .cadre_padding.padding_x{padding:0;}
 .cadre-meme-rubriques .padding_x .bloc_depliable{padding:0;}
-a.bandeau_rub{display:block;font-size:10px;padding:2px;padding-right:13px;padding-left:16px;color:#666;text-decoration:none;border-bottom:1px solid #ccc;background-repeat:no-repeat;background-position:1% center;background-image:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif");}
+a.bandeau_rub{display:block;font-size:10px;padding:2px;padding-right:13px;padding-left:16px;color:#666;text-decoration:none;border-bottom:1px solid #ccc;background-repeat:no-repeat;background-position:1% center;background-image:url("/prive/images/rubrique-12.gif");}
 a.bandeau_rub:hover{background-color:#fff;text-decoration:none;color:#333;background-repeat:no-repeat;background-position:1% center;}
 div.bandeau_rub{position:absolute;left:120px;background-color:#eee;padding:0;border:1px solid #555;visibility:hidden;min-width:100%;}
-div.brt{background:url("http://www.tibet-info.net/www/prive/images/triangle-droite.gif") right center no-repeat;}
+div.brt{background:url("/prive/images/triangle-droite.gif") right center no-repeat;}
 div.pos_r{position:relative;}
 .selecteur_parent{font-size:90%;width:99%;max-height:24px;}
-option.selec_rub{background-position:left center;background-image:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif");background-repeat:no-repeat;padding-left:16px;}
-option.niveau_1{font-weight:bold;background:#ffc000;background-image:url("http://www.tibet-info.net/www/prive/images/secteur-12.gif");background-repeat:no-repeat;}
+option.selec_rub{background-position:left center;background-image:url("/prive/images/rubrique-12.gif");background-repeat:no-repeat;padding-left:16px;}
+option.niveau_1{font-weight:bold;background:#ffc000;background-image:url("/prive/images/secteur-12.gif");background-repeat:no-repeat;}
 option.niveau_2{color:#202020;border-bottom:1px solid #ffc000;}
 option.niveau_3{color:#404040;}
 option.niveau_4{color:#606060;}
@@ -264,7 +264,7 @@ div.en_lignes{font-size:10px;}
 a.icone26{font-family:verdana,helvetica,arial,sans;font-size:11px;font-weight:bold;color:#000;text-decoration:none;padding:1px;margin-right:2px;}
 a.icone26:hover{text-decoration:none;}
 a.icone26 img{vertical-align:middle;background-color:#fa9a00;}
-a.icone26:hover img{background:url("http://www.tibet-info.net/www/prive/images/fond-gris-anim.gif");}
+a.icone26:hover img{background:url("/prive/images/fond-gris-anim.gif");}
 .icone36{border:0;padding:5px 0;margin:0;text-align:center;text-decoration:none;font-size:x-small;width:72px;}
 .icone36 a,.icone36 a,a.icone36,a.icone36:hover{text-decoration:none;}
 .icone36 a img,a.icone36 img{margin:0 auto;display:inline;padding:4px;background-color:#eee;border:2px solid #fa9a00;}
@@ -284,10 +284,10 @@ a.icone36.suivi-forum-24{width:100px;}
 .cellule36 a,.cellule48 a{display:block;text-align:center;}
 .cellule48 a img{display:inline;background-color:#ffc000;margin:4px;padding:0;border:0;}
 .cellule48 a.selection img{display:inline;margin:4px;padding:0;border:0;background-color:#999;}
-.cellule48 a:hover img{display:inline;margin:4px;padding:0;border:0;background:url("http://www.tibet-info.net/www/prive/images/fond-gris-anim.gif");}
+.cellule48 a:hover img{display:inline;margin:4px;padding:0;border:0;background:url("/prive/images/fond-gris-anim.gif");}
 .cellule36 a img{margin:0;display:inline;padding:3px;border:0;border:1px solid #fff;background-color:transparent;}
 .cellule36 a.selection img{margin:0;display:inline;padding:3px;background-color:#fff;border:1px solid #aaa;}
-.cellule36 a:hover img{margin:0;display:inline;padding:3px;background-color:#e4e4e4;background:url("http://www.tibet-info.net/www/prive/images/fond-gris-anim.gif");border:1px solid #fa9a00;}
+.cellule36 a:hover img{margin:0;display:inline;padding:3px;background-color:#e4e4e4;background:url("/prive/images/fond-gris-anim.gif");border:1px solid #fa9a00;}
 .cellule36 a span,.cellule48 a span{color:#666;display:block;margin:1px;width:100%;}
 .cellule36 a:hover span,.cellule48 a:hover span{color:#000;display:block;margin:1px;width:100%;}
 .cellule36 a.selection span,.cellule48 a.selection span{color:#000;display:block;margin:1px;width:100%;}
@@ -305,12 +305,12 @@ a.cellule-h{display:block;}
 a.cellule-h{font-size:10px;font-weight:bold;text-align:left;text-decoration:none;color:#666;}
 a.cellule-h:hover,a.cellule-h:hover a.cellule-h,a.cellule-h a.cellule-h:hover{font-size:10px;font-weight:bold;text-align:left;text-decoration:none;color:#000;}
 a.cellule-h div.cell-i{padding:0;border:1px solid #fff;margin:0;margin-right:3px;}
-a.cellule-h:hover div.cell-i{background:url("http://www.tibet-info.net/www/prive/images/fond-gris-anim.gif");margin:0;margin-right:3px;padding:0;border:1px solid #fa9a00;}
+a.cellule-h:hover div.cell-i{background:url("/prive/images/fond-gris-anim.gif");margin:0;margin-right:3px;padding:0;border:1px solid #fa9a00;}
 table.cellule-h-table{margin:0;padding:0;border:0;}
 a.cellule-h img{width:24px;height:24px;border:0;margin:3px;background-repeat:no-repeat;background-position:center center;}
 a.cellule-h a.aide img{width:12px;height:12px;}
 a.cellule-h-texte{display:block;clear:both;text-align:left;font-family:Trebuchet Sans MS,Arial,Sans,sans-serif;font-weight:bold;font-size:11px;color:#606060;padding:4px;margin:3px;border:1px solid #ddd;background-color:#f0f0f0;width:92%;}
-.danger,a.cellule-h-texte{background:url("http://www.tibet-info.net/www/prive/images/rayures-sup.gif");}
+.danger,a.cellule-h-texte{background:url("/prive/images/rayures-sup.gif");}
 a.cellule-h-texte:hover{text-decoration:none;color:#000;border-right:solid 1px #fff;border-bottom:solid 1px #fff;border-left:solid 1px #666;border-top:solid 1px #666;background-color:#eee;}
 .fondgris{cursor:pointer;padding:4px;margin:1px;}
 .fondgrison{cursor:pointer;padding:3px;margin:1px;border:1px dashed #999;background-color:#e4e4e4;}
@@ -324,11 +324,11 @@ div.onglet a{color:#fa9a00;}
 div.onglet_on{font-family:Verdana,Arial,Sans,sans-serif;font-size:11px;font-weight:bold;border:1px solid #fa9a00;margin-right:3px;padding:5px;background-color:#ffc000;}
 div.onglet_on a,div.onglet_on a:hover{color:#ffc000;color:#fa9a00;text-decoration:none;}
 div.onglet_off{font-family:Verdana,Arial,Sans,sans-serif;font-size:11px;font-weight:bold;border:1px solid #fa9a00;margin-right:3px;padding:5px;background-color:#fa9a00;color:#fff;}
-.reliefblanc{background-image:url("http://www.tibet-info.net/www/prive/images/barre-blanc.gif");}
-.reliefgris{background-image:url("http://www.tibet-info.net/www/prive/images/barre-noir.gif");}
+.reliefblanc{background-image:url("/prive/images/barre-blanc.gif");}
+.reliefgris{background-image:url("/prive/images/barre-noir.gif");}
 .iconeoff{padding:3px;margin:1px;border:1px dashed #aaa;background-color:#f0f0f0;}
 .iconeon{cursor:pointer;padding:3px;margin:1px;border-right:solid 1px #fff;border-bottom:solid 1px #fff;border-left:solid 1px #666;border-top:solid 1px #666;background-color:#eee;}
-.iconedanger{padding:3px;margin:1px;border:1px dashed #000;background:url("http://www.tibet-info.net/www/prive/images/rayures-sup.gif");}
+.iconedanger{padding:3px;margin:1px;border:1px dashed #000;background:url("/prive/images/rayures-sup.gif");}
 .arial0{font-family:Arial,Sans,sans-serif;font-size:9px;}
 .arial1{font-family:Arial,Sans,sans-serif;font-size:10px;}
 .arial11{font-family:Arial,Sans,sans-serif;font-size:11px;}
@@ -358,7 +358,7 @@ a.ortho-dico:hover{margin:-2px;border:2px dashed #a0b890;color:inherit;text-deco
 .ortho-content{position:absolute;top:0;width:70%;padding:15px;margin:0;}
 .suggest-actif,.suggest-inactif{font-family:"Trebuchet Sans MS",Verdana,Geneva,sans-serif;font-size:95%;font-weight:bold;margin:8px;z-index:1;}
 .suggest-actif .detail,.suggest-inactif .detail{margin:8px;margin-top:-0.5em;padding:0.5em;padding-top:1em;border:1px solid #c8c8c8;background:#f3f2f3;font-family:Georgia,Garamond,"Times New Roman",serif;font-weight:normal;z-index:0;}
-.suggest-actif .detail ul,.suggest-inactif .detail ul{list-style-image:url("http://www.tibet-info.net/www/prive/images/puce.gif");background:#f3f2f3;margin:0;padding:0;padding-left:25px;}
+.suggest-actif .detail ul,.suggest-inactif .detail ul{list-style-image:url("/prive/images/puce.gif");background:#f3f2f3;margin:0;padding:0;padding-left:25px;}
 .suggest-actif{display:block;}
 .suggest-inactif{display:none;}
 .form-ortho select{background:#ffe0e0;}
@@ -408,11 +408,11 @@ td.icone a img{border:0;}
 .plan-articles,.plan-articles-bloques{border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;}
 .plan-articles a,.plan-articles-bloques .publie,.plan-articles-bloques .prepa,.plan-articles-bloques .prop,.plan-articles-bloques .refuse,.plan-articles-bloques .poubelle{display:block;padding:2px;padding-left:18px;border-bottom:1px solid #ccc;background:1% no-repeat;background-color:#e0e0e0;font-size:11px;text-decoration:none;}
 .plan-articles a:hover{background-color:#fff;text-decoration:none;}
-.plan-articles .publie,.plan-articles-bloques .publie{background-image:url("http://www.tibet-info.net/www/prive/images/puce-verte.gif");}
-.plan-articles .prepa,.plan-articles-bloques .prepa{background-image:url("http://www.tibet-info.net/www/prive/images/puce-blanche.gif");}
-.plan-articles .prop,.plan-articles-bloques .prop{background-image:url("http://www.tibet-info.net/www/prive/images/puce-orange.gif");}
-.plan-articles .refuse,.plan-articles-bloques .refuse{background-image:url("http://www.tibet-info.net/www/prive/images/puce-rouge.gif");}
-.plan-articles .poubelle,.plan-articles-bloques .poubelle{background-image:url("http://www.tibet-info.net/www/prive/images/puce-poubelle.gif");}
+.plan-articles .publie,.plan-articles-bloques .publie{background-image:url("/prive/images/puce-verte.gif");}
+.plan-articles .prepa,.plan-articles-bloques .prepa{background-image:url("/prive/images/puce-blanche.gif");}
+.plan-articles .prop,.plan-articles-bloques .prop{background-image:url("/prive/images/puce-orange.gif");}
+.plan-articles .refuse,.plan-articles-bloques .refuse{background-image:url("/prive/images/puce-rouge.gif");}
+.plan-articles .poubelle,.plan-articles-bloques .poubelle{background-image:url("/prive/images/puce-poubelle.gif");}
 a.foncee,a.foncee:hover,a.claire,a.claire:hover,span.creer,span.lang_base{display:inline;float:none;padding:2px;margin:0;margin-left:1px;margin-right:1px;border:0;font-family:Arial,Helvetica,Sans,sans-serif;font-size:9px;text-decoration:none;z-index:1;}
 a.foncee,a.foncee:hover{background-color:#fa9a00;color:#fff;border:1px solid #fa9a00;}
 a.claire,a.claire:hover{background-color:#ffc000;color:#fa9a00;border:1px solid #fa9a00;}
@@ -436,14 +436,14 @@ li.rub a.titre{background-color:transparent;}
 li.art a.titre{display:inline;background-color:transparent;font-weight:normal;padding-left:5px;padding-top:4px;height:20px;}
 span.icone{float:left;position:relative;display:block;width:28px;height:24px;margin-left:-14px;}
 li.art span.icone{margin-left:0;}
-li.sec span.icone{background:url("http://www.tibet-info.net/www/prive/images/secteur-24.gif") left bottom no-repeat;}
-li.rub span.icone{background:url("http://www.tibet-info.net/www/prive/images/rubrique-24.gif") left top no-repeat;}
-li.art span.icone{background:url("http://www.tibet-info.net/www/prive/images/article-24.gif") left top no-repeat;}
+li.sec span.icone{background:url("/prive/images/secteur-24.gif") left bottom no-repeat;}
+li.rub span.icone{background:url("/prive/images/rubrique-24.gif") left top no-repeat;}
+li.art span.icone{background:url("/prive/images/article-24.gif") left top no-repeat;}
 li.sec ul{display:none;}
 li.rub ul{display:none;}
 li img.expandImage{display:block;float:left;position:relative;left:-20px;width:16px;height:16px;}
 li.selected{background-color:#ffc000}
-a.liste-mot{background:url("http://www.tibet-info.net/www/prive/images/petite-cle.gif") left center no-repeat;padding-left:30px;}
+a.liste-mot{background:url("/prive/images/petite-cle.gif") left center no-repeat;padding-left:30px;}
 .tr_liste{background-color:#eee;}
 .tr_liste_over,.tr_liste:hover{background-color:#fff;}
 .tr_liste td,.tr_liste:hover td,.tr_liste_over td{border-bottom:1px solid #ccc;}
@@ -451,17 +451,17 @@ a.liste-mot{background:url("http://www.tibet-info.net/www/prive/images/petite-cl
 .tr_liste:hover td div.liste_clip,span.liste_clip{overflow:visible;height:100%;}
 img.puce{width:7px;height:7px;border:0;}
 img.lang{width:12px;height:12px;border:0;}
-div.brouteur_rubrique{display:block;padding:3px;padding-right:10px;border-top:0px solid #fa9a00;border-bottom:1px solid #fa9a00;border-left:1px solid #fa9a00;border-right:1px solid #fa9a00;background:url("http://www.tibet-info.net/www/prive/images/triangle-droite.gif") right center no-repeat;background-color:#fff;}
-div.brouteur_rubrique_on{display:block;padding:3px;padding-right:10px;border-top:0px solid #fa9a00;border-bottom:1px solid #fa9a00;border-left:1px solid #fa9a00;border-right:1px solid #fa9a00;background:url("http://www.tibet-info.net/www/prive/images/triangle-droite.gif") right center no-repeat;background-color:#e0e0e0;}
+div.brouteur_rubrique{display:block;padding:3px;padding-right:10px;border-top:0px solid #fa9a00;border-bottom:1px solid #fa9a00;border-left:1px solid #fa9a00;border-right:1px solid #fa9a00;background:url("/prive/images/triangle-droite.gif") right center no-repeat;background-color:#fff;}
+div.brouteur_rubrique_on{display:block;padding:3px;padding-right:10px;border-top:0px solid #fa9a00;border-bottom:1px solid #fa9a00;border-left:1px solid #fa9a00;border-right:1px solid #fa9a00;background:url("/prive/images/triangle-droite.gif") right center no-repeat;background-color:#e0e0e0;}
 xdiv.brouteur_rubrique:hover{background-color:#e0e0e0;}
 div.brouteur_rubrique div,div.brouteur_rubrique_on div{padding-top:5px;padding-bottom:5px;padding-left:28px;background-repeat:no-repeat;background-position:center left;font-weight:bold;font-family:Arial,Sans,sans-serif;font-size:12px;}
 div.brouteur_rubrique div a{color:#fa9a00;}
 div.brouteur_rubrique_on div a{color:#000;}
-.brouteur_icone_racine{background:url("http://www.tibet-info.net/www/prive/images/racine-site-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
-.brouteur_icone_secteur{background:url("http://www.tibet-info.net/www/prive/images/secteur-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
-.brouteur_icone_rubrique{background:url("http://www.tibet-info.net/www/prive/images/rubrique-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
-.brouteur_icone_article{background:url("http://www.tibet-info.net/www/prive/images/article-24.gif") left no-repeat;margin:3px;padding-top:5px;padding-bottom:5px;padding-left:28px}
-.brouteur_icone_site{background:url("http://www.tibet-info.net/www/prive/images/site-24.gif") left center no-repeat;margin:3px;padding-top:5px;padding-bottom:5px;padding-left:28px}
+.brouteur_icone_racine{background:url("/prive/images/racine-site-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
+.brouteur_icone_secteur{background:url("/prive/images/secteur-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
+.brouteur_icone_rubrique{background:url("/prive/images/rubrique-24.gif") left no-repeat;padding-top:5px;padding-bottom:5px;padding-left:28px}
+.brouteur_icone_article{background:url("/prive/images/article-24.gif") left no-repeat;margin:3px;padding-top:5px;padding-bottom:5px;padding-left:28px}
+.brouteur_icone_site{background:url("/prive/images/site-24.gif") left center no-repeat;margin:3px;padding-top:5px;padding-bottom:5px;padding-left:28px}
 .iframe-brouteur{background-color:#eee;border:0;z-index:1;}
 table.bottom td{vertical-align:bottom;}
 table.bottom img{display:block;}
@@ -478,16 +478,16 @@ a.boutonlien:hover{color:#454545;text-decoration:none;}
 a.boutonlien{color:#808080;text-decoration:none;}
 a.triangle_block{margin-top:-3px;margin-bottom:-3px;margin-right:-3px;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
 a.triangle_block:hover{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
-.fond-agenda{background:url("http://www.tibet-info.net/www/prive/images/fond-agenda.gif") right center no-repeat;float:left;margin-right:3px;padding-right:4px;line-height:12px;color:#666;}
+.fond-agenda{background:url("/prive/images/fond-agenda.gif") right center no-repeat;float:left;margin-right:3px;padding-right:4px;line-height:12px;color:#666;}
 .highlight{color:#000;background-color:#666;}
 .highlight.off{padding:2px;display:block;color:#666;background-color:#fff;}
 a.highlight:hover{color:#000;cursor:pointer;}
 div.petite-racine{margin-bottom:-5px;}
-div.petite-racine,a.petite-racine{background:1% no-repeat;background-image:url("http://www.tibet-info.net/www/prive/images/racine-site-12.gif");padding-left:15px;background-color:#fff;border:1px solid #fa9a00;border-bottom:0;width:134px;}
-div.petite-rubrique,a.petite-rubrique{background:1% no-repeat;background-image:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif");padding-left:15px;}
-div.petit-secteur,a.petit-secteur{background:1% no-repeat;background-image:url("http://www.tibet-info.net/www/prive/images/secteur-12.gif");padding-left:15px;}
-div.rub-ouverte,a.rub-ouverte{padding-right:10px;background:url("http://www.tibet-info.net/www/prive/images/triangle-droite.gif") right center no-repeat;}
-a.ical{background:url("http://www.tibet-info.net/www/prive/images/synchro-24.gif") no-repeat;background-position:top center;padding-left:30px;padding-bottom:20px;}
+div.petite-racine,a.petite-racine{background:1% no-repeat;background-image:url("/prive/images/racine-site-12.gif");padding-left:15px;background-color:#fff;border:1px solid #fa9a00;border-bottom:0;width:134px;}
+div.petite-rubrique,a.petite-rubrique{background:1% no-repeat;background-image:url("/prive/images/rubrique-12.gif");padding-left:15px;}
+div.petit-secteur,a.petit-secteur{background:1% no-repeat;background-image:url("/prive/images/secteur-12.gif");padding-left:15px;}
+div.rub-ouverte,a.rub-ouverte{padding-right:10px;background:url("/prive/images/triangle-droite.gif") right center no-repeat;}
+a.ical{background:url("/prive/images/synchro-24.gif") no-repeat;background-position:top center;padding-left:30px;padding-bottom:20px;}
 .swap-couche{border:0;height:10px;width:10px;}
 .titrem{font-weight:bold;}
 div.titrem,h3.titrem{display:block;padding-top:6px;padding-bottom:4px;background-repeat:no-repeat;padding-left:16px;}
@@ -522,16 +522,16 @@ h3.titrem{position:relative;}
 .iconifier div div.titrem{text-align:left;}
 .iconifier div div{text-align:center;}
 .iconifier div div label{text-align:left;display:block;}
-.replie a.titremancre{background-image:url("http://www.tibet-info.net/www/prive/images/deplierhaut.gif");}
+.replie a.titremancre{background-image:url("/prive/images/deplierhaut.gif");}
 .hover{background-color:#ffc000;}
-.deplie a.titremancre{background-image:url("http://www.tibet-info.net/www/prive/images/deplierbas.gif");}
+.deplie a.titremancre{background-image:url("/prive/images/deplierbas.gif");}
 .blocreplie{display:none;}
 .blocdeplie{display:block;background:none;}
-td.pense-bete,a.pense-bete{background:url("http://www.tibet-info.net/www/prive/images/m_envoi_bleu.gif") center left no-repeat;padding-left:20px;}
-td.annonce,a.annonce{background:url("http://www.tibet-info.net/www/prive/images/m_envoi_jaune.gif") center left no-repeat;padding-left:20px;}
-td.message,a.message{background:url("http://www.tibet-info.net/www/prive/images/m_envoi.gif") center left no-repeat;padding-left:10px;}
+td.pense-bete,a.pense-bete{background:url("/prive/images/m_envoi_bleu.gif") center left no-repeat;padding-left:20px;}
+td.annonce,a.annonce{background:url("/prive/images/m_envoi_jaune.gif") center left no-repeat;padding-left:20px;}
+td.message,a.message{background:url("/prive/images/m_envoi.gif") center left no-repeat;padding-left:10px;}
 .enfants ul{list-style:none;}
-.enfants ul li.rubrique_12{background:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif") left center no-repeat;padding:2px;padding-left:18px;margin-left:6px;position:relative;}
+.enfants ul li.rubrique_12{background:url("/prive/images/rubrique-12.gif") left center no-repeat;padding:2px;padding-left:18px;margin-left:6px;position:relative;}
 #sauvegarder,#restaurer,#reparer{margin:0 0 2em 0;}
 .liste_plugins ul li{list-style:none;border-bottom:1px solid #fff;}
 .liste_plugins ul{padding-left:1em;margin:.5em 0 .5em 0;}
@@ -700,7 +700,7 @@ body.sites .no_onglets #contenu #wysiwyg div.contenu_nom_site{display:none;}
 #props .langue{text-align:left;}
 #auteur-voir .statut{margin:10px 0;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:10px 0;}
 #auteur-voir .statut ul{margin-bottom:0;}
-.miniature_logo,.miniature_document{background:url("http://www.tibet-info.net/www/prive/images/fond-grille.gif") top left;}
+.miniature_logo,.miniature_document{background:url("/prive/images/fond-grille.gif") top left;}
 table.info{width:90%;margin:1em auto;border-collapse:collapse;border-spacing:0;line-height:normal;border:1px solid #999;}
 table.info thead tr{background-color:#7d4d00;color:#fff;border:1px solid #ddd;}
 table.info th,table.info td{padding:0.20em 0.40em;text-align:left;border:1px solid #ddd;}
@@ -712,7 +712,7 @@ textarea{width:97%;font-size:1em;margin:0;}
 .entete-formulaire{background:white;border:1px solid #fa9a00;border-bottom:0;padding:0.5em;overflow:auto;zoom:1;}
 .formulaire_spip .cadre{border:1px solid #fa9a00;}
 .entete-formulaire p{margin:0 0 0.5em;}
-.formulaire_spip{font-size:11px;line-height:1.4em;padding:0;clear:both;border:1px solid #fa9a00;color:#333;background:#fff url("http://www.tibet-info.net/www/local/cache-gd2/7e0fd57c5d4eff27a28663023f2a6e1b.jpg") repeat-x bottom;}
+.formulaire_spip{font-size:11px;line-height:1.4em;padding:0;clear:both;border:1px solid #fa9a00;color:#333;background:#fff url("/local/cache-gd2/7e0fd57c5d4eff27a28663023f2a6e1b.jpg") repeat-x bottom;}
 .formulaire_spip ul{margin:0;padding:0;list-style:none;}
 .formulaire_spip li{margin:0;padding:10px 10px 10px 10px;padding-left:130px;clear:both;overflow:hidden;border-top:1px solid #fee6c0;}
 .formulaire_spip li.choix,.formulaire_spip li.editer_groupe_mots_associer,.formulaire_spip li.editer_groupe_mots_reglage_avance,.formulaire_spip li.editer_groupe_mots_editeur{padding-left:10px;}
@@ -854,9 +854,9 @@ a.bouton_fermer{display:block;text-align:right;}
 .galerie table td.exif .taille{font-size:.9em;font-weight:bold;color:#666;}
 .galerie table td.exif .date{font-size:.9em;}
 .galerie table .supprimer{display:block;font-size:0.8em;margin-top:1em;}
-.galerie.media-image h2{background:url("http://www.tibet-info.net/www/plugins/auto/mediatheque/images/media-image-32.png") no-repeat center left;padding:6px;padding-left:40px;}
-.galerie.media-audio h2{background:url("http://www.tibet-info.net/www/plugins/auto/mediatheque/images/media-audio-32.png") no-repeat center left;padding:6px;padding-left:40px;}
-.galerie.media-video h2{background:url("http://www.tibet-info.net/www/plugins/auto/mediatheque/images/media-video-32.png") no-repeat center left;padding:6px;padding-left:40px;}
+.galerie.media-image h2{background:url("/plugins/auto/mediatheque/images/media-image-32.png") no-repeat center left;padding:6px;padding-left:40px;}
+.galerie.media-audio h2{background:url("/plugins/auto/mediatheque/images/media-audio-32.png") no-repeat center left;padding:6px;padding-left:40px;}
+.galerie.media-video h2{background:url("/plugins/auto/mediatheque/images/media-video-32.png") no-repeat center left;padding:6px;padding-left:40px;}
 .galerie table td.exif{background-repeat:no-repeat;background-position:top right;}
 .spip_documents_legende{border:1px solid #fa9a00;text-align:center;font-size:0.9em;margin:0 0 1em;}
 .spip_documents_legende dt{background:#fa9a00;color:#fff;padding:5px 3px;font-weight:bold;}
@@ -879,8 +879,8 @@ p.actions{clear:both;}
 ul.item_picked{list-style:none;margin:0;padding:0;float:left;}
 ul.item_picked li{margin:0 2px 2px;padding:2px;background:#eee;border:1px solid #ffc000;float:left;clear:none;}
 ul.item_picked li span.sep{display:none;}
-ul.item_picked li.article{padding-left:15px;background:url("http://www.tibet-info.net/www/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left center;}
-ul.item_picked li.rubrique{padding-left:15px;background:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif") no-repeat left center;}
+ul.item_picked li.article{padding-left:15px;background:url("/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left center;}
+ul.item_picked li.rubrique{padding-left:15px;background:url("/prive/images/rubrique-12.gif") no-repeat left center;}
 ul.item_picked.select li{padding:2px 0;border:0;font-weight:bold;background:none;float:none;}
 ul.item_picked.select ul > li{float:left;}
 .picker_bouton{float:right;clear:both;}
@@ -899,8 +899,8 @@ ul.item_picked.select ul > li{float:left;}
 .item_picker .frame .pagination{font-size:0.9em;}
 .item_picker .frame ul{list-style:none;margin:0;padding:0;}
 .item_picker .frame ul li{display:block;clear:both;list-style:none;margin:0;padding:0 2px;padding-left:15px;position:relative;}
-.item_picker .frame ul li.rubrique{background:url("http://www.tibet-info.net/www/prive/images/rubrique-12.gif") no-repeat left2px;padding-right:16px;}
-.item_picker .frame ul li.article{clear:both;background:url("http://www.tibet-info.net/www/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left2px;}
+.item_picker .frame ul li.rubrique{background:url("/prive/images/rubrique-12.gif") no-repeat left2px;padding-right:16px;}
+.item_picker .frame ul li.article{clear:both;background:url("/plugins/auto/spip-bonux/img_pack/article-12.png") no-repeat left2px;}
 .item_picker .frame ul li:hover,.item_picker .frame ul li.on{background-color:#ffe080;}
 .item_picker .frame a:hover,.item_picker .frame a:hover .ouvrir,.item_picker .frame a:hover .add{background-color:#ffc000;}
 .item_picker .frame ul li.rubrique .ouvrir{position:absolute;display:block;top:0px;right:0px;}
@@ -928,7 +928,7 @@ ul.item_picked.select ul > li{float:left;}
 .markItUp .markItUpEditor{clear:both;display:block;overflow:auto;}
 #text_area{height:300px;}
 .markItUp .markItUpFooter{margin:0px;padding:0px;width:100%;}
-.markItUp .markItUpResizeHandle{overflow:hidden;width:22px;height:5px;margin-left:auto;margin-right:auto;background-image:url("http://www.tibet-info.net/www/extensions/porte_plume/css/images/handle.png");cursor:ns-resize;}
+.markItUp .markItUpResizeHandle{overflow:hidden;width:22px;height:5px;margin-left:auto;margin-right:auto;background-image:url("/extensions/porte_plume/css/images/handle.png");cursor:ns-resize;}
 .markItUp .markItUpTabs{text-align:right;padding:1px 1px 0;margin-bottom:-1px;margin-top:3px;overflow:hidden;width:auto;float:right;margin-right:30px;clear:both;}
 .markItUp .markItUpTabs a{display:block;float:right;border:1px solid #ccc;margin:0px 1px;padding:3px 4px 2px 4px;background:#f0f0f0;}
 .markItUp .markItUpTabs a.on{background:#fff;border-bottom:1px solid #fff;}
@@ -945,7 +945,7 @@ ul.item_picked.select ul > li{float:left;}
 .markItUp .markItUpHeader ul .markItUpDropMenu li{margin-right:0px;background-color:#eee;padding:1px 0px 1px 1px;}
 .markItUp .markItUpHeader ul ul{display:none;position:absolute;top:24px;left:-1px;width:150px;z-index:2;padding-top:2px;}
 .markItUp .markItUpHeader ul ul li{float:left;}
-.markItUp .markItUpHeader ul ul .markItUpDropMenu{background:#F5F5F5 url("http://www.tibet-info.net/www/extensions/porte_plume/css/images/submenu.png") no-repeat 50% 50%;}
+.markItUp .markItUpHeader ul ul .markItUpDropMenu{background:#F5F5F5 url("/extensions/porte_plume/css/images/submenu.png") no-repeat 50% 50%;}
 .markItUp .markItUpHeader ul .markItUpSeparator{margin:0 6px;width:0px;height:16px;overflow:hidden;}
 .markItUp .markItUpHeader ul ul .markItUpSeparator{width:auto;height:1px;margin:0px;}
 .markItUp .markItUpHeader ul a{display:block;background-color:#f5f5f5;border:1px solid #ccc;padding:3px;margin-right:1px;}
@@ -953,36 +953,36 @@ ul.item_picked.select ul > li{float:left;}
 .markItUp .markItUpHeader ul a:hover{border:1px solid #888;background-color:#fff;}
 
 /* page=barre_outils_icones.css */
-.markItUp .outil_header1 a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
-.markItUp .outil_bold a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
-.markItUp .outil_italic a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
-.markItUp .outil_stroke_through a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
-.markItUp .outil_liste_ul a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
-.markItUp .outil_liste_ol a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
-.markItUp .outil_indenter a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
-.markItUp .outil_desindenter a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
-.markItUp .outil_quote a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
-.markItUp .outil_link a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
-.markItUp .outil_notes a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
-.markItUp .outil_guillemets a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
-.markItUp .outil_guillemets_simples a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
-.markItUp .outil_guillemets_de a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
-.markItUp .outil_guillemets_de_simples a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
-.markItUp .outil_guillemets_uniques a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
-.markItUp .outil_caracteres a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
-.markItUp .outil_a_maj_grave a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
-.markItUp .outil_e_maj_aigu a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
-.markItUp .outil_e_maj_grave a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
-.markItUp .outil_aelig a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
-.markItUp .outil_aelig_maj a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
-.markItUp .outil_oe a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
-.markItUp .outil_oe_maj a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
-.markItUp .outil_ccedil_maj a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
-.markItUp .outil_uppercase a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
-.markItUp .outil_lowercase a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
-.markItUp .outil_clean a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
-.markItUp .outil_preview a b{background-image:url(http://www.tibet-info.net/www/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
-.ajaxLoad{background:white url('http://www.tibet-info.net/www/prive/images/searching.gif') top left no-repeat;}
+.markItUp .outil_header1 a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
+.markItUp .outil_bold a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
+.markItUp .outil_italic a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
+.markItUp .outil_stroke_through a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
+.markItUp .outil_liste_ul a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
+.markItUp .outil_liste_ol a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
+.markItUp .outil_indenter a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
+.markItUp .outil_desindenter a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
+.markItUp .outil_quote a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
+.markItUp .outil_link a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
+.markItUp .outil_notes a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
+.markItUp .outil_guillemets a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
+.markItUp .outil_guillemets_simples a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
+.markItUp .outil_guillemets_de a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
+.markItUp .outil_guillemets_de_simples a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
+.markItUp .outil_guillemets_uniques a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
+.markItUp .outil_caracteres a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
+.markItUp .outil_a_maj_grave a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
+.markItUp .outil_e_maj_aigu a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
+.markItUp .outil_e_maj_grave a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
+.markItUp .outil_aelig a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
+.markItUp .outil_aelig_maj a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
+.markItUp .outil_oe a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
+.markItUp .outil_oe_maj a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
+.markItUp .outil_ccedil_maj a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
+.markItUp .outil_uppercase a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
+.markItUp .outil_lowercase a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
+.markItUp .outil_clean a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
+.markItUp .outil_preview a b{background-image:url(/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
+.ajaxLoad{background:white url('/prive/images/searching.gif') top left no-repeat;}
 
 /* page=cfg.css */
 .cfg_arbo h5{padding:0.2em 0.2em;margin:0.2em 0;cursor:pointer;}

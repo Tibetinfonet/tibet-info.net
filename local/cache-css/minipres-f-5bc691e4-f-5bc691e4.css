@@ -13,7 +13,7 @@ ul,ol,li { list-style: none; }
 
 /* Disposition a l'ecran
 ---------------------------------------------- */
-body { background: #babdb6 url("http://www.tibet-info.net/www/prive/images/minipres-gris.png") no-repeat scroll 97% 100px; }
+body { background: #babdb6 url("/prive/images/minipres-gris.png") no-repeat scroll 97% 100px; }
 
 /* Espaceur de blocs */
 .nettoyeur { clear: both; margin: 0; padding: 0; border: 0; height: 0; line-height: 0; font-size: 0; }
@@ -43,7 +43,7 @@ body.minipres fieldset, body.minipres .fieldset  { border: 1px solid #ccc; paddi
 
 #minipres label { color: #333; }
 .fondl { /*background-color: #eee; background-position: center bottom; padding: 3px; border: 1px solid #333; font-size: 0.90em;*/ }
-.formo, input.text, input.password { width: 50%; display: block; background-color: #f8f8f9; background-position: center bottom; margin-bottom: 1em; padding: 3px; border: 1px inset #333; behavior: url("http://www.tibet-info.net/www/prive/win_width.htc"); }
+.formo, input.text, input.password { width: 50%; display: block; background-color: #f8f8f9; background-position: center bottom; margin-bottom: 1em; padding: 3px; border: 1px inset #333; behavior: url("/prive/win_width.htc"); }
 .formo, input.text, input.password, select { font-size: 1.1em; }
 
 p.resultat { background-color: #fcaf3e; padding: 0.40em 0.10em; text-align: center; color: #fff; font-weight: bold; }
@@ -54,22 +54,22 @@ p.resultat.echec { background-color: #d60c0c; }
 #etapes span { display: block; margin-top: -0.50em; padding: 12px 14px; margin-bottom: 5px; }
 #etapes span em { font-size: 2em; font-weight: bold; }
 #etapes span span { position: absolute; top: -100px; left: -100px; }
-#etapes span.ok { background: url("http://www.tibet-info.net/www/prive/images/etape-ok.gif") center no-repeat; }
-#etapes span.encours { background: url("http://www.tibet-info.net/www/prive/images/etape-encours.gif") center no-repeat; }
-#etapes span.todo { background: url("http://www.tibet-info.net/www/prive/images/etape-todo.gif") center no-repeat; }
+#etapes span.ok { background: url("/prive/images/etape-ok.gif") center no-repeat; }
+#etapes span.encours { background: url("/prive/images/etape-encours.gif") center no-repeat; }
+#etapes span.todo { background: url("/prive/images/etape-todo.gif") center no-repeat; }
 
-#infos_etapes { height: 63px; overflow: hidden; margin: 0; padding: 0; padding-left: 10px; background: #8c8c8c url("http://www.tibet-info.net/www/prive/images/degrade-etapes-clair-left.gif") no-repeat right top; text-align: left; font-family: helvetica, arial, sans; list-style: none; }
-#infos_etapes.infos_etape_4 { background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-vert-left.gif"); background-color: green; }
-#infos_etapes li { float: left; margin-left: -28px; padding-left: 29px; background: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-fonce-left.gif") no-repeat left top; color: #555; text-align: left; font-size: 0.85em; line-height: 1.05em; }
-#infos_etapes li .fond { width: 8em; height: 69px; padding-right: 2em; padding-top: 10px; background: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-fonce-left.gif") no-repeat -30px top; }
+#infos_etapes { height: 63px; overflow: hidden; margin: 0; padding: 0; padding-left: 10px; background: #8c8c8c url("/prive/images/degrade-etapes-clair-left.gif") no-repeat right top; text-align: left; font-family: helvetica, arial, sans; list-style: none; }
+#infos_etapes.infos_etape_4 { background-image: url("/prive/images/degrade-etapes-vert-left.gif"); background-color: green; }
+#infos_etapes li { float: left; margin-left: -28px; padding-left: 29px; background: url("/prive/images/degrade-etapes-fonce-left.gif") no-repeat left top; color: #555; text-align: left; font-size: 0.85em; line-height: 1.05em; }
+#infos_etapes li .fond { width: 8em; height: 69px; padding-right: 2em; padding-top: 10px; background: url("/prive/images/degrade-etapes-fonce-left.gif") no-repeat -30px top; }
 #infos_etapes li em {float:left;position:absolute;top:-1000px;}
 #infos_etapes li span.numero_etape { float: left; display: block; height: 50px; margin-left: -10px; padding: 7px 3px 0 3px; font-weight: bold; font-size: 3em; }
-#infos_etapes li.on { background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-vert-left.gif"); color: #fff; font-weight: bold; }
-#infos_etapes li.on .fond { background-color: #88f560; background-image:  url("http://www.tibet-info.net/www/prive/images/degrade-etapes-vert-left.gif"); }
-#infos_etapes li.erreur { background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-rouge-left.gif"); }
-#infos_etapes li.erreur .fond { background-color: #ff6868; background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-rouge-left.gif"); }
-#infos_etapes li.prochains { background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-clair-left.gif"); }
-#infos_etapes li.prochains .fond { background-color: #dbdbdb;background-image: url("http://www.tibet-info.net/www/prive/images/degrade-etapes-clair-left.gif"); }
+#infos_etapes li.on { background-image: url("/prive/images/degrade-etapes-vert-left.gif"); color: #fff; font-weight: bold; }
+#infos_etapes li.on .fond { background-color: #88f560; background-image:  url("/prive/images/degrade-etapes-vert-left.gif"); }
+#infos_etapes li.erreur { background-image: url("/prive/images/degrade-etapes-rouge-left.gif"); }
+#infos_etapes li.erreur .fond { background-color: #ff6868; background-image: url("/prive/images/degrade-etapes-rouge-left.gif"); }
+#infos_etapes li.prochains { background-image: url("/prive/images/degrade-etapes-clair-left.gif"); }
+#infos_etapes li.prochains .fond { background-color: #dbdbdb;background-image: url("/prive/images/degrade-etapes-clair-left.gif"); }
 
 /* installation des plugins */
 .install-plugins {background:#ddd;border:1px solid black;color:#555;font-size:0.85em;padding:10px;}

@@ -120,7 +120,7 @@ a:after
  *  Images typographiques (via image_typo)
  */
 .image_typo {
-	behavior: url("http://www.tibet-info.net/www/squelettes/styles/win_png.htc");
+	behavior: url("/squelettes/styles/win_png.htc");
 }
 
 /*
