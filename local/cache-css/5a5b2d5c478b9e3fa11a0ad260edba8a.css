@@ -1,0 +1,305 @@
+/* compact [
+	squelettes-dist/spip_formulaires.css
+	squelettes/styles/base.css
+	squelettes/styles/alter.css
+] 62.8% */
+
+/* squelettes-dist/spip_formulaires.css */
+input,select,textarea{font-size:100%;font-family:inherit;}
+.formulaire_spip{clear:both;margin-bottom:2em;padding:0;border:0;text-align:left;font-size:1em;}
+.formulaire_spip form{margin:0;padding:0;}
+.formulaire_spip fieldset{clear:both;margin:0 0 1em 0;padding:0;border:0;}
+.formulaire_spip fieldset legend{margin:0;padding:0;font-size:1.05em;font-weight:bold;background-color:#fff;color:#333;}
+.formulaire_spip fieldset fieldset{margin-top:1em;}
+.formulaire_spip fieldset fieldset legend{font-size:1em;font-weight:normal;}
+.formulaire_spip .explication{margin:0.50em 0;color:#444;}
+.formulaire_spip ul{margin:0;padding:0;list-style:none;}
+.formulaire_spip ul li{clear:both;margin:0;padding:0.50em 0;}
+.formulaire_spip label{display:block;text-align:left;color:#444;font-weight:bold;position:relative;}
+.formulaire_spip li p{margin-top:0;margin-bottom:0;}
+.formulaire_spip .choix label{display:inline;font-weight:normal;}
+.formulaire_spip .choix input.radio,.formulaire_spip .choix input.checkbox{width:auto;}
+.formulaire_spip input.text{width:15em;border:1px inset;}
+.formulaire_spip textarea{width:99%;border:1px inset;}
+.formulaire_spip select{width:99%;}
+.formulaire_spip .boutons{clear:both;margin:0;padding:0;text-align:right;}
+.formulaire_spip .boutons input{margin-left:1em;}
+
+
+.formulaire_spip fieldset.previsu{margin-bottom:2em;padding:1em;border:2px dashed #F57900;}
+.formulaire_spip fieldset.previsu legend{padding:0 0.50em;font-weight:bold;color:#F57900;}
+.formulaire_spip fieldset.previsu li{padding:3px;border:none;}
+.formulaire_spip fieldset.previsu p{margin:1em 0;}
+.reponse_formulaire{font-weight:bold;color:#e86519;font-size:1.20em;}
+fieldset.reponse_formulaire{border-color:#e86519;font-weight:normal;}
+fieldset.reponse_formulaire.reponse_formulaire legend{color:#F57900;}
+.formulaire_spip li.erreur .erreur_message{display:block;color:#C30;font-weight:bold;}
+.formulaire_spip li.erreur input.text,.formulaire_spip li.erreur textarea{background-color:#FCC;border-style:solid;border-color:#C30;}
+.reponse_formulaire_erreur{margin:0;color:#C30;font-weight:bold;}
+.reponse_formulaire_ok{margin:0;color:#53AD20;font-weight:bold;}
+table.spip_barre{width:100%;}
+table.spip_barre a img{background:#FDA;padding:3px;border:1px outset #CC9;}
+table.spip_barre a:focus img,table.spip_barre a:hover img,table.spip_barre a:active img{background:#FFF;border:1px solid #CC9;}
+table.spip_barre input.barre{width:99%;background:transparent;border:0;color:inherit;}
+.formulaire_forum .saisie_titre input.text,.formulaire_forum .saisie_titre textarea{width:98%;}
+.formulaire_menu_lang{margin:0;padding:0;background:none;}
+.formulaire_recherche{margin:0;padding:0;background:none;}
+.formulaire_recherche *{display:inline;vertical-align:middle;}
+.formulaire_recherche input.text{width:10em;padding-left:25px;background:#FFF url("http://www.tibet-info.net/www/squelettes-dist/rechercher.gif") no-repeat left center;}
+
+ul.choix_mots{display:block;margin:0;padding:0;list-style:none;}
+ul.choix_mots li{clear:none;float:left;display:block;width:30%;padding:1%;}
+ul.choix_mots li label{display:inline;font-weight:normal;}
+.formulaire_spip .bugajaxie{display:none;}
+.formulaire_login ul li{clear:left;}
+.formulaire_login .editer_password .details{display:block;}
+.formulaire_login #spip_logo_auteur{float:right;}
+
+/* squelettes/styles/base.css */
+a,a:link,a:visited{text-decoration:none;color:#0A74A6;}
+a:hover{text-decoration:underline;color:#0A74A6;}
+a.spip_out,a.spip_in,a.spip_url,a.spip_glossaire{color:#0A74A6;}
+body{color:#444;font:86%/1.0 "Trebuchet MS","Lucida Grande","Lucida Sans",Tahoma,Arial,'Helvetica Neue',Helvetica,Geneva,Lucida,sans-serif;margin:0;text-align:center;background-color:#ddd;}
+#page{position:relative;text-align:left;margin:3em auto;padding:0;width:1024px;max-width:98%;min-width:720px;}
+#entete{position:relative;height:180px;margin:0px 0px 0px 0px;padding:0;border-width:0;text-align:right;background-color:#787878;overflow:hidden;z-index:10;}
+#navigation{position:absolute;top:0px;left:0px;width:150px;margin:0 0 1em 0;padding:0 0 1em 0;}
+#bloc-contenu{position:static;border:solid 1px #DEDEDE;margin:10px 155px 5px 155px;padding:10px 10px 5px;background:white;z-index:20;}
+#encart{position:absolute;top:270px;right:0px;width:150px;margin:0 0 1em 0;padding:0 0 1em 0;}
+#bas{margin:0px;padding:0px;padding-top:5px;padding-right:0px;padding-left:0px;padding-bottom:2px;text-align:center;margin-left:155px;margin-right:155px;}
+#entete a.nom-site,#entete a.nom-site:link,#entete a.nom-site:visited{display:block;position:relative;top:0;left:0;width:100%;height:100%;font-family:Verdana,'Bitstream Vera Sans',Tahoma,'Lucida Grande','Lucida Sans',Arial,'Helvetica Neue',Helvetica,Lucida,Geneva,sans-serif;text-decoration:none;color:#EDDF5C;font-size:2em;font-weight:bold;padding:0;background-color:transparent;}
+#entete a.nom-site:hover{color:#ddd;font-style:normal;text-shadow:white 0px 0px 8px;}
+#entete .nom-site span{display:block;position:absolute;bottom:48px;right:200px;}
+h1{margin-top:0px;margin-bottom:0px;font-size:160%;font-weight:bold;}
+h2{margin-top:0px;margin-bottom:15px;font-size:150%;font-weight:bold;}
+h2.titre-article{margin-bottom:0px;}
+h3{margin-top:.2em;margin-bottom:.2em;font-size:120%;font-weight:bold;}
+h3.spip{margin-top:1em;margin-bottom:.4em;padding-bottom:.1em;font-size:125%;font-weight:bold;text-align:left;background-color:#F3F3F3;}
+h4{margin:2px;font-size:110%;font-weight:bold;}
+h5{margin:2px;margin-left:0px;font-size:100%;font-weight:bold;}
+h6{margin:2px;margin-left:0px;font-size:90%;font-weight:bold;}
+ul,ul ul{padding-left:0em;list-style:square;margin-left:1em;}
+.menu ul li{border-top:1px solid #eee;}
+.menu ul li a:hover{text-decoration:none;}
+.menu ul li a,.menu ul li a:visited,.menu ul li b{color:white;}
+.menu ul li li a,.menu ul li li a:visited{color:#0A74A6;}
+.menu li span{color:#444;}
+.menu ul li a:hover,.menu ul li li a:hover,.menu ul li li a.lienon{color:maroon;}
+.menu ul li a,.menu ul li b{background-color:#313c72;}
+.menu ul li li a,.menu ul li li a:visited,.menu li span{background-color:#DDD;}
+.menu ul li a:hover,.menu ul li li a:hover{background-color:#EDFBFF;}
+.menu ul li li a.lienon{background-color:#ffd;}
+.menu ul li li a.article{background-color:#eee;}
+.menu ul li li a.article:hover{background-color:#EDFBFF;}
+.menu ul{font-size:88%;line-height:1.2em;font-weight:normal;text-align:left;list-style-type:none;margin:0;padding:0;}
+.menu ul ul{font-size:1em;margin:0;}
+.menu ul li{margin:0;}
+.menu ul li a,.menu ul li b{text-decoration:none;text-align:left;padding:3px 4px 3px 4px;display:block;}
+.menu ul li li a{padding-left:4px;font-weight:normal;}
+.menu ul li li li a{padding-left:10px;}
+.menu ul li li li li a{padding-left:16px;}
+.menu ul li li li li li a{padding-left:22px;}
+.menu ul li li li li li li a{padding-left:28px;}
+.menu li span{display:block;font-style:italic;font-size:92%;}
+.menu li li address a{padding:0px 0 4px 4px;font-style:italic;font-size:92%;}
+.annonce{background-color:#DDD;text-align:center;}
+.menu li.annonce a{padding:0;}
+.menu li.annonce .spip_logos,.menu li.annonce a img{margin:0;}
+#menu-principal{position:absolute;top:-1.4em;margin-top:0px;margin-left:0px;width:780px;}
+#menu-principal li a{padding:.2em 1em .2em 1em;margin:0 1px 0 0;}
+#menu-principal ul li{float:left;}
+#menu-recherche{width:16em;margin-top:-2px;}
+#menu-recherche #recherche{width:10em;margin-top:-2px;}
+#menu-recherche.menu ul li{border-top:0;}
+#menu-rubriques{position:absolute;top:270px;width:150px;}
+.menu-item{font-size:85%;}
+.menu-item,.menu-titre-special,.menu-titre{background-color:#313c72;}
+.texte{text-align:left;line-height:1.3em;text-transform:inherit;}
+p.spip{text-align:left;}
+.chapo{font-weight:bold;text-align:left;background-color:#f3f3f3;padding:.5em;margin:0 0 1em 0;}
+.detail{font-size:smaller;padding:0px;margin:0px;}
+.petit-info{font-size:smaller;font-weight:bold;}
+.spip_bouton{font-size:smaller;font-weight:bold;}
+.ps{text-align:left;font-size:90%;}
+.notes{text-align:left;font-size:90%;}
+.surtitre,.sous-titre{margin-top:0px;margin-bottom:0px;font-weight:normal;font-size:90%;text-transform:uppercase;}
+.pagination{font-size:90%;}
+.spip_documents{font-size:85%;margin:10px;}
+.spip_doc_titre{font-weight:bold;font-size:1em;line-height:1em;margin-left:auto;margin-right:auto;}
+.spip_doc_descriptif{clear:both;font-size:1em;line-height:1em;margin-left:auto;margin-right:auto;}
+ul.spip{margin-left:1em;padding:0;}
+ol.spip{margin-left:.8em;padding:0;}
+ul ul.spip,ol ol.spip,ol ul.spip,ul ol.spip{margin-left:0;padding:0;}
+ul.spip,ul ul.spip,ol ul.spip{list-style:square;}
+ol.spip{list-style:decimal;}
+ol.spip li{margin:0.3em 0 0.3em 1.5em;list-style-position:outside;}
+ul.spip li{margin:0.3em 0 0.3em 1.2em;list-style-position:outside;}
+ul.spip ol.spip li{margin:0.3em 0 0.3em 1.5em;list-style-position:outside;}
+#bas{font-size:85%;}
+.date-entete{font-size:80%;}
+.mot-precis{font-style:italic;font-size:83%;color:#777;}
+.lang{color:red;text-transform:uppercase;}
+.edito .bandeau{overflow:hidden;margin-bottom:1em;padding-bottom:1em;border-color:#BBB;border-width:0 0 2px 0;border-style:dotted;}
+.edito h3{margin:0;padding:0;color:white;background-color:#313c72;text-transform:uppercase;text-indent:4px;width:100%;font-size:1.1em;line-height:1.4;}
+.edito h3 a,.edito h3 a:link,.edito h3 a:visited,.edito h3 a:hover{color:white;font-size:90%;}
+.edito .chapo{margin-top:0;background-color:#eee;}
+.edito .suite{text-align:right;}
+#petition{float:right;width:170px;margin-left:12px;}
+#petition fieldset{margin:0;padding:0;}
+#petition fieldset{margin:0;padding:0;}
+.signatures{font-size:92%;margin-left:0px;margin-right:0px;margin-top:1em;margin-bottom:1em;width:100%;}
+.signatures-titre{font-size:92%;font-weight:bold;margin:0px;}
+.signature-date{white-space:nowrap;background:#DDD;padding:0.5em;}
+.signature-nom{font-weight:bold;background:#EEE;padding:0.2em;text-align:center;}
+.signature-message{background:#f4f8f8;padding:0.4em;text-align:left;}
+a.spip_barre img{border:1px solid #bbb;padding:2px;margin:0px;background-color:#eee;}
+a.spip_barre:hover img{border:1px solid #aaa;padding:2px;margin:0px;background-color:white;}
+.reponse_formulaire{font-family:Arial,Geneva,Helvetica,Lucida,sans-serif;font-weight:bold;font-size:110%;color:red;}
+.forum-titre{font-weight:bold;font-size:120%;}
+ul .forum-chapo{font-size:83%;}
+.forum-item{font-size:92%;}
+.forml{font-size:100%;color:#444;}
+.formulaire{color:#777;font-size:83%;}
+.spip-admin{font-size:92%;}
+.spip_bouton{color:#444;}
+.structure{position:absolute;top:-3000em;height:1%;}
+.nettoyeur{clear:both;margin:0;padding:0;border:none;height:0;line-height:1px;font-size:1px;}
+.invisible{position:absolute;top:-3000em;height:1%;}
+.article-info-rubrique{text-align:left;margin-bottom:10px;}
+.article-info-rubrique h5{font-size:85%;}
+.extrait{margin:5px;line-height:1.4em;padding:8px;background-color:#F6F6F6;}
+.extrait p,.extrait ul,.extrait ol,.extrait table,.extrait div,.extrait blockquote{margin-bottom:0;}
+.extrait .suite{display:block;text-align:right;}
+.suite a,.suite a:link,.suite a:visited{text-decoration:none;color:maroon;font-variant:small-caps;background-repeat:no-repeat;background-position:left 66%;background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/puce.gif");padding-left:.6em;}
+.suite a:hover{color:#085D85;text-decoration:underline;}
+.bouton{background:#EEE;border:solid 1px #BBB;padding:1px;margin-bottom:2px;margin-top:0px;}
+.separateur{width:6px;font-size:10px;height:9px;padding-right:2px;}
+.mot-precis{padding-left:2px;padding-right:3px;}
+.chapo{line-height:1.4em;margin-top:1em;}
+.ps{padding-top:0.6em;margin-top:0.6em;margin-bottom:10px;border-top:1px dashed #AAA;}
+
+.ligne-debut{padding-top:0px;margin-top:5px;margin-bottom:15px;border-top:1px dashed #AAA;}
+.notes{margin-top:0.6em;margin-bottom:0.6em;border-top:1px solid #a0a0a0;padding:1.5em;}
+.date-entete{text-align:right;margin-top:-16px;margin-right:-5px;margin-bottom:10px;}
+.cartouche{margin-bottom:15px;}
+.spip_logos,.cartouche .spip_logos,.logo-liste-art .spip_logos{padding-left:0px;margin:0 0 0 1em;}
+.sommaire .logo-liste-art{clear:both}
+.logo-liste-art{float:right;}
+#plan{margin:0px;padding:0px;font-size:small;}
+#plan ul{padding-left:2px;list-style:none;margin-top:2px;margin-bottom:5px;margin-left:1.5em;}
+#plan ul ul{list-style:square;}
+#plan ul ul ul{margin-left:1em;}
+#plan li{margin-bottom:1px;padding-left:0px;font-weight:bold;}
+#plan li li{font-weight:normal;}
+#plan h2{color:#333;text-transform:uppercase;font-weight:normal;}
+#plan h3{text-transform:uppercase;padding:2px 0;text-indent:2px;}
+ul.forum-total{display:block;padding:0px;margin:0px;list-style:none;}
+.forum-fil{margin-top:10px;}
+.forum-fil ul{display:block;margin:0px;margin-left:8px;padding:0px;list-style:none;}
+.forum-item{margin:0px;padding:5px;padding-bottom:0;text-align:left;background:white;}
+.forum-repondre-message{margin:0;padding:0;padding-top:4px;text-align:right;}
+ul .forum{border:1px solid #909090;padding:0px;margin:0px;margin-bottom:1px;}
+ul ul .forum{border:1px solid #a4a4a4;}
+ul ul ul .forum{border:1px solid #b8b8b8;}
+ul ul ul ul .forum{border:1px solid #ccc;}
+ul ul ul ul ul .forum{border:1px solid #e0e0e0;}
+ul ul ul ul ul ul .forum{border:1px solid #e0e0e0;}
+ul .forum-chapo{border:0px;border-bottom:1px dashed #b8b8b8;margin:0px;padding-left:6px;padding-right:6px;padding-bottom:2px;background:#EEE;}
+ul ul .forum-chapo{background:#EEE;}
+ul ul ul .forum-chapo{background:#EEE;}
+ul ul ul ul .forum-chapo{background:#EEE;}
+ul ul ul ul ul .forum-chapo{background:#EEE;}
+form{margin:0px;padding:0px;text-align:left;text-transform:inherit;}
+fieldset{border:0px;}
+.formulaire{margin:0px;margin-bottom:16px;}
+#form_rech{width:150px;}
+#form_rech2{font-size:1.4em;}
+.formrecherche{color:#777;font-size:90%;display:block;font-weight:normal;padding:1px;padding-top:2px;background-color:white;margin:2px;margin-right:0px;margin-left:0px;border:solid 1px #BBB;}
+.formulaire_recherche label,.formulaire_menu_lang label,a#formulaire_recherche,a#formulaire_menu_lang{display:none;}
+.formulaire_recherche fieldset,.formulaire_menu_lang fieldset{padding:0;margin:0;}
+#champ-recherche{width:80px;}
+.bouton{display:none;}
+.forml{background-color:white;margin:5px 0;padding:2px;border:solid 1px #AAA;width:98%;}
+#menu-recherche .forml{margin:0px 0;}
+.formulaire_ecrire_auteur{width:96%;text-align:left;}
+.formulaire_ecrire_auteur legend{display:none}
+#menu-lang,#formulaire-lang{position:absolute;top:0;right:0;text-transform:uppercase;text-align:right;font-size:80%;margin:0;padding:0;z-index:25;}
+#formulaire-lang{width:120px;}
+#formulaire-lang .forml{margin:0;}
+#menu-lang{margin:.5em;color:white;}
+#menu-lang a{color:aqua;}
+#menu-lang a:hover{color:#FBA;}
+.spip_bouton{background-color:white;border:solid 1px #ccc;padding:0px;margin:0px;}
+.spip-admin form{display:inline;}
+.spip_encadrer{border:solid 1px #ccc;background-color:white;padding:5px;margin:0px;}
+.formulaire_spip input.text{width:94%;}
+.spip_code{background-color:#FCF4D0;}
+.spip_puce{list-style-position:inside;}
+table.spip{width:96%;border-collapse:separate;border-spacing:1px;font-size:90%;}
+table.spip caption{margin:.5em auto;}
+table.spip tr.row_first{background-color:#313C72;color:#FFF;}
+table.spip tr.row_odd{background-color:#EEE;}
+table.spip tr.row_even{background-color:#DDD;}
+table.spip th,table.spip td{padding:.2em .4em;border:0 solid #000;}
+table.spip td{vertical-align:middle;}
+
+
+blockquote.spip{margin-top:8px;margin-right:0px;margin-bottom:8px;margin-left:12px;border:solid 0px #AAA;border-left:solid 6px #C90;background-color:white;padding:5px;}
+.spip_cadre{width:100%;background-color:white;padding:5px;}
+div.spip_poesie{margin-left:10px;padding-left:10px;border-left:1px solid #999;font-size:1.2em;}
+div.spip_poesie div{text-indent:-60px;margin-left:60px;}
+.spip_surligne{background-color:#FF6;}
+a.spip_barre img{padding:3px;background-color:#fda;border-color:white #A96 #A96 white;border-width:1px;border-style:solid;}
+a.spip_barre:hover img{border:1px solid #808080;padding:3px;background-color:#f8f8f4;}
+a.spip_mail:before{content:"";}
+.agenda #bloc-contenu{position:static;border:solid 1px #DEDEDE;margin:0px 0px 5px 155px;padding:10px 10px 5px;background:white;}
+#calendrier{background-color:#EAEAEA;margin:0;padding-bottom:15px;position:relative;}
+#calendrier table{width:100%;margin:1px auto;padding:15px 0;border-style:none;}
+table.agenda tr,table.agenda td{border-collapse:collapse;border:1px solid #BFBFBF;}
+table.agenda{border-collapse:collapse;border:1px solid #EAEAEA;}
+table.agenda th{border-collapse:collapse;border-style:none;background-color:#EAEAEA;}
+table.agenda a,table.agenda a:link,table.agenda a:visited,table.agenda a:active{text-decoration:none;color:#000;padding:2px;font-size:9px;}
+table.agenda a:hover{text-decoration:underline;}
+.agendaBouton{border-style:none;color:#FFF;background-color:#BABEBF;padding:1px 10px;}
+.agendaNav,.agendaHead,.agendaThisMonth{background-color:#FFF;}
+.agendaThisDay{background-color:#BBC9E3;}
+.agendaNotThisMonth{background:#EFEFEF;}
+.agendaNav{text-align:center;border:none;}
+.AgendaForm{text-align:center;margin:0;padding:10px 0;}
+div.AgendaForm form fieldset{margin:0;text-align:center;border:none;position:relative;}
+a.droite{position:absolute;width:8px;height:14px;display:block;background:url("http://www.tibet-info.net/www/squelettes/styles/img/agenda-nav-droite.gif") no-repeat left top;right:15px;top:1.5em;}
+a.gauche{position:absolute;display:block;width:8px;height:14px;background:url("http://www.tibet-info.net/www/squelettes/styles/img/agenda-nav-gauche.gif") no-repeat;left:15px;top:1.5em;z-index:21;}
+a.gauche span,a.droite span{display:none;} .pagination{text-align:right;clear:both;margin:16px 4px 4px 4px;}
+.pagination .ligne2{text-align:center;background-color:#eee;}
+p.pagination{margin-top:0;text-align:center;font-size:80%;}
+#sommaire{float:right;display:block;width:150px;margin:0 0 0 1em;border:1px gray solid;background-color:white;overflow:hidden;}
+.spip_modele{width:150px;margin:0 0 0 1em;border:1px gray solid;background-color:white;clear:both;overflow:hidden;}
+#sommaire h4,.spip_modele h4{border-bottom:1px silver dotted;text-align:center;line-height:1em;}
+#sommaire ul,.spip_modele ul{font-size:84%;margin:.5em;margin-left:1em;padding:0;list-style-type:square;}
+#sommaire ul li,.spip_modele ul li{line-height:1em;margin:.3em 0 0 .5em;}
+body.plan #sommaire{width:150px;}
+#bloc-contenu .texte object{display:block;margin:auto;}
+#decoupe_haut{display:none !important}
+#decoupe_bas{background-color:#eee !important}
+.decoupe_bas p{display:inline;margin:0 0 0 1.4em;}
+.cs_sommaire{width:14em !important;max-height:500px !important;float:right !important;}
+.cs_sommaire ul{font-family:Tahoma,'Trebuchet MS',Arial,Helvetica,sans-serif !important;margin-top:0.3em !important;margin-right:0.5em !important;margin-bottom:0.1em !important;margin-left:1.2em !important;padding:0pt;font-size:88% !important;list-style-image:none;list-style-position:outside;list-style-type:square !important;text-align:left !important;}
+.spip_documents .spip_doc_descriptif{display:block !important;width:100% !important;margin-left:auto;margin-right:auto;}
+.coloration_code{font-size:120%;}
+.coloration_code ol{background-color:#ccc;border:1px solid #ccc;}
+.coloration_code ol li{background-color:#eee;padding-left:.5em;}
+.jeux_question{font-size:1em !important;color:maroon !important;}
+body.ar{font:100%/1.0 "Lucida Grande","Lucida Sans","Trebuchet MS",Tahoma,Arial,'Helvetica Neue',Helvetica,Geneva,Lucida,sans-serif;}
+body.ar #page{width:910px;max-width:98%;min-width:740px;}
+code.spip_code{font-size:85% !important;}
+
+/* squelettes/styles/alter.css */
+body{background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/body_bg.png");background-repeat:repeat;}
+#entete{background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/bandeau_tibet_info.jpg");background-repeat:no-repeat;background-position:left bottom;text-align:right;}
+.menu ul li a,.menu ul li b,.edito h3,.signatures td{background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/titre-coin.gif");background-repeat:no-repeat;background-position:top left;}
+.separateur{background-repeat:no-repeat;background-position:left center;background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/puce.gif");}
+#menu-lang,#formulaire-lang{right:0;text-align:right;}
+.formulaire_recherche input.forml{background-image:url("http://www.tibet-info.net/www/squelettes/styles/img/loupe.png");background-repeat:no-repeat;background-position:right center;}
+#pubhaut{background-color:#d5d5d5;position:relative;text-align:center;padding:2px 0;width:100%;display:block;clear:both;top:2px;margin:0;}
+pubhautgauche{width:800px;height:80px;float:none;}
+pubhautdroite{width:200px;height:80px;float:none;}
+

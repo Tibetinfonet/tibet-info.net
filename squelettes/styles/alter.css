@@ -1,0 +1,81 @@
+body {
+	background-image: url(img/body_bg.png);
+	background-repeat: repeat;
+}
+
+#entete
+{
+	background-image: url(img/bandeau_tibet_info.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	text-align: right;
+}
+#entete a.nom-site, 
+#entete a.nom-site:link,  
+#entete a.nom-site:visited
+{
+}
+.menu ul li a, 
+.menu ul li b,
+.edito h3,
+.signatures td 
+{	
+	background-image: url(img/titre-coin.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+/* a deplacer dans styles.html */
+.separateur
+{
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(img/puce.gif);
+}
+
+#entete .nom-site span {  }
+
+#menu-lang,
+#formulaire-lang
+{
+	right: 0;
+	text-align: right;
+}
+.formulaire_recherche input.forml {
+	background-image: url(img/loupe.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#pubhaut {
+	background-color: #d5d5d5;
+	position: relative;
+	text-align: center;
+	padding: 2px 0;
+	width: 100%;
+	display: block;
+	clear: both;
+	top: 2px;
+	margin: 0;
+}
+
+pubhautgauche {
+	width: 800px;
+	height: 80px;
+	float: none;
+}
+
+pubhautdroite {
+	width: 200px;
+	height: 80px;
+	float: none;
+}
+
+
+
+
+
+
+
+
+
